@@ -14,15 +14,15 @@ Chrome extension as frontend that extracts the url from pages and sends it to th
 ## Technologies
 Project is created with:
 * Chrome extension manifest version 2
-* p5.js
+* react.js
 * Bootstrap 3
 	
 ## Setup
 
 Clone the repo:
 
-    git clone https://github.com/risto-trajanov/TextSummaryP5
-    cd TextSummaryP5
+    git clone https://github.com/risto-trajanov/TextSummaryReact
+    cd TextSummaryReact
     npm run build
     
   Open chrome.  

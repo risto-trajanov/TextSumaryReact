@@ -8,8 +8,8 @@ Chrome extension(Frontend) for text summarization using react.js
 * [Setup](#setup)
 
 ## General info
-Risto Trajanov 171523
-School project for web development(FINKI).
+Risto Trajanov 171523  
+School project for web development(FINKI).  
 Chrome extension as frontend that extracts the url from pages and sends it to the api for text summarization.
 	
 ## Technologies

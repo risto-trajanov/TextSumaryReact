@@ -1,25 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+  "short_name": "Text_Sum",
+  "name": "Text Sumarization",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon16.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "app/background.js"
+    ]
+  },
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "webRequest",
+    "<all_urls>",
+    "tabs"
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "content_security_policy": "script-src 'self' 'sha256-YWFDheUNfoWusCDQxd1bR7ppAoI5IAIbSb9LrJah0IM='; object-src 'self'"
 }
